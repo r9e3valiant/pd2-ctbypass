@@ -1,0 +1,19 @@
+{
+	"name" : "CTBypass",
+	"description" : "Bypasses cheater tag for unowned equipment",
+	"author" : "Vellikann",
+	"contact" : "Github",
+	"version" : "1.0"
+	"hooks" :
+	[
+		{
+			"hook_id" : "lib/managers/blackmarketmanager",
+			"script_path" : "cheater.lua"
+		},
+		{
+			"hook_id" : "lib/network/base/basenetworksession",
+			"script_path" : "cheater.lua"
+		}
+
+	],
+}
