@@ -1,5 +1,5 @@
 # pd2-ctbypass
-This mod allows you to bypass the Cheater tag when unlocking a DLC
+Bypasses cheater tag for unowned equipment
 
 Dependencies:
 SuperBLT
